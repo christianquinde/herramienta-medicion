@@ -24,11 +24,11 @@ Después de 2 minutos de llamada se cerrará la captura.
 Al finalizar la captura se da clic en el botón STOP para filtrar los puertos y con la herramienta tshark y de esta manera separar los flujos de audio y video, así como los flujos que se envían o reciben.
 Cabe mencionar que si se desea realizar una captura más corta al dar clic en el botón STOP también detendrá la captura. Se recomienda usar el mismo tiempo de captura para un análisis estadístico.
 
-##3: Calcular métricas
+## 3: Calcular métricas
 
 Para obtener los resultados de las métricas se da clic en el botón Calcular Métricas. Permitiendo mostrar el perfil de audio y video y los valores promedios de las métricas como el throughput, delay y packet loss.
 
-##4: Promediar
+## 4: Promediar
 Finalmente, se da clic al botón promediar para obtener un análisis estadístico de las 10 capturas realizadas.
 
 ## Funciones Adicionales
