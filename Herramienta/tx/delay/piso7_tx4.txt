@@ -1,0 +1,4414 @@
+Frame 633: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:00.449955000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357180.449955000 seconds
+    [Time delta from previous captured frame: 0.004381000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 2.334398000 seconds]
+    Frame Number: 633
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x4b87 (19335)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x6ba6 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0x092b [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853345980 (0xe5ad64bc)
+    Timestamp, LSW: 1932048088 (0x7328b6d8)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:53:00.449839999 UTC]
+    RTP timestamp: 669760269
+    Sender's packet count: 13041
+    Sender's octet count: 12169569
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 1037: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:01.969693000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357181.969693000 seconds
+    [Time delta from previous captured frame: 0.000323000 seconds]
+    [Time delta from previous displayed frame: 1.519738000 seconds]
+    [Time since reference or first frame: 3.854136000 seconds]
+    Frame Number: 1037
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0x609a (24730)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x5b8f [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0x8e42 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 2 / 256
+            Cumulative number of packets lost: 54
+        Extended highest sequence number received: 16232
+            Sequence number cycles count: 0
+            Highest sequence number received: 16232
+        Interarrival jitter: 0
+        Last SR timestamp: 1690071848 (0x64bc7328)
+        Delay since last SR timestamp: 95933 (1463 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 2267: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:06.593418000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357186.593418000 seconds
+    [Time delta from previous captured frame: 0.000408000 seconds]
+    [Time delta from previous displayed frame: 4.623725000 seconds]
+    [Time since reference or first frame: 8.477861000 seconds]
+    Frame Number: 2267
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x5089 (20617)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x66a4 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0x198e [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 6.143463000 seconds]
+        [Time since previous frame: 6.143463000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853345986 (0xe5ad64c2)
+    Timestamp, LSW: 2548049477 (0x97e02645)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:53:06.593263999 UTC]
+    RTP timestamp: 670313173
+    Sender's packet count: 13251
+    Sender's octet count: 12360750
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 2275: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:06.610376000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357186.610376000 seconds
+    [Time delta from previous captured frame: 0.000169000 seconds]
+    [Time delta from previous displayed frame: 0.016958000 seconds]
+    [Time since reference or first frame: 8.494819000 seconds]
+    Frame Number: 2275
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0x6453 (25683)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x57d6 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0xe5a0 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 4.640683000 seconds]
+        [Time since previous frame: 4.640683000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 0 / 256
+            Cumulative number of packets lost: 54
+        Extended highest sequence number received: 16393
+            Sequence number cycles count: 0
+            Highest sequence number received: 16393
+        Interarrival jitter: 0
+        Last SR timestamp: 1690071848 (0x64bc7328)
+        Delay since last SR timestamp: 401593 (6127 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 3383: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:10.771176000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357190.771176000 seconds
+    [Time delta from previous captured frame: 0.001735000 seconds]
+    [Time delta from previous displayed frame: 4.160800000 seconds]
+    [Time since reference or first frame: 12.655619000 seconds]
+    Frame Number: 3383
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0x67c1 (26561)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x5468 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0xbcb7 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 8.801483000 seconds]
+        [Time since previous frame: 4.160800000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 0 / 256
+            Cumulative number of packets lost: 54
+        Extended highest sequence number received: 16530
+            Sequence number cycles count: 0
+            Highest sequence number received: 16530
+        Interarrival jitter: 0
+        Last SR timestamp: 1690474464 (0x64c297e0)
+        Delay since last SR timestamp: 271453 (4142 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 3854: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:12.515690000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357192.515690000 seconds
+    [Time delta from previous captured frame: 0.007828000 seconds]
+    [Time delta from previous displayed frame: 1.744514000 seconds]
+    [Time since reference or first frame: 14.400133000 seconds]
+    Frame Number: 3854
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x556d (21869)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x61c0 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0x112e [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 12.065735000 seconds]
+        [Time since previous frame: 5.922272000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853345992 (0xe5ad64c8)
+    Timestamp, LSW: 2214480842 (0x83fe4bca)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:53:12.515598999 UTC]
+    RTP timestamp: 670846162
+    Sender's packet count: 13451
+    Sender's octet count: 12546069
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 4429: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:14.715605000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357194.715605000 seconds
+    [Time delta from previous captured frame: 0.001859000 seconds]
+    [Time delta from previous displayed frame: 2.199915000 seconds]
+    [Time since reference or first frame: 16.600048000 seconds]
+    Frame Number: 4429
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0x6afc (27388)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x512d [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0xd117 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 12.745912000 seconds]
+        [Time since previous frame: 3.944429000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 0 / 256
+            Cumulative number of packets lost: 54
+        Extended highest sequence number received: 16663
+            Sequence number cycles count: 0
+            Highest sequence number received: 16663
+        Interarrival jitter: 0
+        Last SR timestamp: 1690862590 (0x64c883fe)
+        Delay since last SR timestamp: 140118 (2138 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 4949: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:16.669359000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357196.669359000 seconds
+    [Time delta from previous captured frame: 0.001525000 seconds]
+    [Time delta from previous displayed frame: 1.953754000 seconds]
+    [Time since reference or first frame: 18.553802000 seconds]
+    Frame Number: 4949
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x58d4 (22740)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x5e59 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0x68ef [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 16.219404000 seconds]
+        [Time since previous frame: 4.153669000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853345996 (0xe5ad64cc)
+    Timestamp, LSW: 2874548596 (0xab562174)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:53:16.669282999 UTC]
+    RTP timestamp: 671219982
+    Sender's packet count: 13586
+    Sender's octet count: 12674691
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 5342: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:18.139472000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357198.139472000 seconds
+    [Time delta from previous captured frame: 0.000487000 seconds]
+    [Time delta from previous displayed frame: 1.470113000 seconds]
+    [Time since reference or first frame: 20.023915000 seconds]
+    Frame Number: 5342
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0x6dd3 (28115)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x4e56 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0x63c1 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 16.169779000 seconds]
+        [Time since previous frame: 3.423867000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 0 / 256
+            Cumulative number of packets lost: 54
+        Extended highest sequence number received: 16773
+            Sequence number cycles count: 0
+            Highest sequence number received: 16773
+        Interarrival jitter: 0
+        Last SR timestamp: 1691134806 (0x64ccab56)
+        Delay since last SR timestamp: 92387 (1409 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 6141: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:21.172374000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357201.172374000 seconds
+    [Time delta from previous captured frame: 0.000419000 seconds]
+    [Time delta from previous displayed frame: 3.032902000 seconds]
+    [Time since reference or first frame: 23.056817000 seconds]
+    Frame Number: 6141
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0x702f (28719)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x4bfa [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0x5930 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 19.202681000 seconds]
+        [Time since previous frame: 3.032902000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 2 / 256
+            Cumulative number of packets lost: 55
+        Extended highest sequence number received: 16877
+            Sequence number cycles count: 0
+            Highest sequence number received: 16877
+        Interarrival jitter: 0
+        Last SR timestamp: 1691134806 (0x64ccab56)
+        Delay since last SR timestamp: 291080 (4441 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 6560: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:22.726887000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357202.726887000 seconds
+    [Time delta from previous captured frame: 0.001035000 seconds]
+    [Time delta from previous displayed frame: 1.554513000 seconds]
+    [Time since reference or first frame: 24.611330000 seconds]
+    Frame Number: 6560
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x5dbf (23999)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x596e [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0x9cf7 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 22.276932000 seconds]
+        [Time since previous frame: 6.057528000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853346002 (0xe5ad64d2)
+    Timestamp, LSW: 3121457676 (0xba0daa0c)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:53:22.726770999 UTC]
+    RTP timestamp: 671765170
+    Sender's packet count: 13787
+    Sender's octet count: 12863661
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 7014: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:24.420387000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357204.420387000 seconds
+    [Time delta from previous captured frame: 0.003467000 seconds]
+    [Time delta from previous displayed frame: 1.693500000 seconds]
+    [Time since reference or first frame: 26.304830000 seconds]
+    Frame Number: 7014
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0x72f5 (29429)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x4934 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0x17a5 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 22.450694000 seconds]
+        [Time since previous frame: 3.248013000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 0 / 256
+            Cumulative number of packets lost: 55
+        Extended highest sequence number received: 16985
+            Sequence number cycles count: 0
+            Highest sequence number received: 16985
+        Interarrival jitter: 0
+        Last SR timestamp: 1691531789 (0x64d2ba0d)
+        Delay since last SR timestamp: 107885 (1646 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 8142: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:28.688298000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357208.688298000 seconds
+    [Time delta from previous captured frame: 0.002256000 seconds]
+    [Time delta from previous displayed frame: 4.267911000 seconds]
+    [Time since reference or first frame: 30.572741000 seconds]
+    Frame Number: 8142
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0x7663 (30307)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x45c6 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0xdb15 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 26.718605000 seconds]
+        [Time since previous frame: 4.267911000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 0 / 256
+            Cumulative number of packets lost: 55
+        Extended highest sequence number received: 17127
+            Sequence number cycles count: 0
+            Highest sequence number received: 17127
+        Interarrival jitter: 0
+        Last SR timestamp: 1691531789 (0x64d2ba0d)
+        Delay since last SR timestamp: 385386 (5880 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 8172: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:28.792527000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357208.792527000 seconds
+    [Time delta from previous captured frame: 0.006432000 seconds]
+    [Time delta from previous displayed frame: 0.104229000 seconds]
+    [Time since reference or first frame: 30.676970000 seconds]
+    Frame Number: 8172
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x6299 (25241)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x5494 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0xbf0e [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 28.342572000 seconds]
+        [Time since previous frame: 6.065640000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853346008 (0xe5ad64d8)
+    Timestamp, LSW: 3403233301 (0xcad93815)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:53:28.792376999 UTC]
+    RTP timestamp: 672311057
+    Sender's packet count: 13990
+    Sender's octet count: 13054598
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 8855: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:31.381419000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357211.381419000 seconds
+    [Time delta from previous captured frame: 0.005521000 seconds]
+    [Time delta from previous displayed frame: 2.588892000 seconds]
+    [Time since reference or first frame: 33.265862000 seconds]
+    Frame Number: 8855
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x64b0 (25776)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x527d [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0x1f96 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 30.931464000 seconds]
+        [Time since previous frame: 2.588892000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853346011 (0xe5ad64db)
+    Timestamp, LSW: 1637572245 (0x619b5e95)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:53:31.381276999 UTC]
+    RTP timestamp: 672544072
+    Sender's packet count: 14079
+    Sender's octet count: 13141541
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 9364: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:33.287785000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357213.287785000 seconds
+    [Time delta from previous captured frame: 0.001737000 seconds]
+    [Time delta from previous displayed frame: 1.906366000 seconds]
+    [Time since reference or first frame: 35.172228000 seconds]
+    Frame Number: 9364
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0x7a24 (31268)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x4205 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0x3dc2 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 31.318092000 seconds]
+        [Time since previous frame: 4.599487000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 0 / 256
+            Cumulative number of packets lost: 55
+        Extended highest sequence number received: 17282
+            Sequence number cycles count: 0
+            Highest sequence number received: 17282
+        Interarrival jitter: 0
+        Last SR timestamp: 1692098971 (0x64db619b)
+        Delay since last SR timestamp: 120464 (1838 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 9685: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:34.498804000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357214.498804000 seconds
+    [Time delta from previous captured frame: 0.002910000 seconds]
+    [Time delta from previous displayed frame: 1.211019000 seconds]
+    [Time since reference or first frame: 36.383247000 seconds]
+    Frame Number: 9685
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x673e (26430)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x4fef [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0xb281 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 34.048849000 seconds]
+        [Time since previous frame: 3.117385000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853346014 (0xe5ad64de)
+    Timestamp, LSW: 2141844355 (0x7fa9f383)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:53:34.498686999 UTC]
+    RTP timestamp: 672824641
+    Sender's packet count: 14184
+    Sender's octet count: 13236178
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 10992: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:39.443687000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357219.443687000 seconds
+    [Time delta from previous captured frame: 0.007517000 seconds]
+    [Time delta from previous displayed frame: 4.944883000 seconds]
+    [Time since reference or first frame: 41.328130000 seconds]
+    Frame Number: 10992
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0x7f1f (32543)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x3d0a [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0x31c4 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 37.473994000 seconds]
+        [Time since previous frame: 6.155902000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 0 / 256
+            Cumulative number of packets lost: 55
+        Extended highest sequence number received: 17486
+            Sequence number cycles count: 0
+            Highest sequence number received: 17486
+        Interarrival jitter: 0
+        Last SR timestamp: 1692303273 (0x64de7fa9)
+        Delay since last SR timestamp: 312238 (4764 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 11283: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:40.529402000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357220.529402000 seconds
+    [Time delta from previous captured frame: 0.003705000 seconds]
+    [Time delta from previous displayed frame: 1.085715000 seconds]
+    [Time since reference or first frame: 42.413845000 seconds]
+    Frame Number: 11283
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x6c27 (27687)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x4b06 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0xb1bd [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 40.079447000 seconds]
+        [Time since previous frame: 6.030598000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853346020 (0xe5ad64e4)
+    Timestamp, LSW: 2273167275 (0x877dc7ab)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:53:40.529262999 UTC]
+    RTP timestamp: 673367412
+    Sender's packet count: 14383
+    Sender's octet count: 13423503
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 12154: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:43.795059000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357223.795059000 seconds
+    [Time delta from previous captured frame: 0.009105000 seconds]
+    [Time delta from previous displayed frame: 3.265657000 seconds]
+    [Time since reference or first frame: 45.679502000 seconds]
+    Frame Number: 12154
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0x82b1 (33457)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x3978 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0xb6e4 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 41.825366000 seconds]
+        [Time since previous frame: 4.351372000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 0 / 256
+            Cumulative number of packets lost: 55
+        Extended highest sequence number received: 17635
+            Sequence number cycles count: 0
+            Highest sequence number received: 17635
+        Interarrival jitter: 0
+        Last SR timestamp: 1692698493 (0x64e4877d)
+        Delay since last SR timestamp: 210464 (3211 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 12635: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:45.601388000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357225.601388000 seconds
+    [Time delta from previous captured frame: 0.003890000 seconds]
+    [Time delta from previous displayed frame: 1.806329000 seconds]
+    [Time since reference or first frame: 47.485831000 seconds]
+    Frame Number: 12635
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x704d (28749)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x46e0 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0x4d14 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 45.151433000 seconds]
+        [Time since previous frame: 5.071986000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853346025 (0xe5ad64e9)
+    Timestamp, LSW: 2582361971 (0x99ebb773)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:53:45.601252999 UTC]
+    RTP timestamp: 673823845
+    Sender's packet count: 14550
+    Sender's octet count: 13581916
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 13684: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:49.558287000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357229.558287000 seconds
+    [Time delta from previous captured frame: 0.000305000 seconds]
+    [Time delta from previous displayed frame: 3.956899000 seconds]
+    [Time since reference or first frame: 51.442730000 seconds]
+    Frame Number: 13684
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0x875e (34654)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x34cb [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0xfb5c [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 47.588594000 seconds]
+        [Time since previous frame: 5.763228000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 1 / 256
+            Cumulative number of packets lost: 56
+        Extended highest sequence number received: 17822
+            Sequence number cycles count: 0
+            Highest sequence number received: 17822
+        Interarrival jitter: 0
+        Last SR timestamp: 1693030891 (0x64e999eb)
+        Delay since last SR timestamp: 253304 (3865 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 13996: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:50.770552000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357230.770552000 seconds
+    [Time delta from previous captured frame: 0.004636000 seconds]
+    [Time delta from previous displayed frame: 1.212265000 seconds]
+    [Time since reference or first frame: 52.654995000 seconds]
+    Frame Number: 13996
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x7472 (29810)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x42bb [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0xfa26 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 50.320597000 seconds]
+        [Time since previous frame: 5.169164000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853346030 (0xe5ad64ee)
+    Timestamp, LSW: 3308864279 (0xc5394317)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:53:50.770404999 UTC]
+    RTP timestamp: 674289091
+    Sender's packet count: 14724
+    Sender's octet count: 13746237
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 14897: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:54.122262000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357234.122262000 seconds
+    [Time delta from previous captured frame: 0.000234000 seconds]
+    [Time delta from previous displayed frame: 3.351710000 seconds]
+    [Time since reference or first frame: 56.006705000 seconds]
+    Frame Number: 14897
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0x8b23 (35619)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x3106 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0x6750 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 52.152569000 seconds]
+        [Time since previous frame: 4.563975000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 1 / 256
+            Cumulative number of packets lost: 57
+        Extended highest sequence number received: 17980
+            Sequence number cycles count: 0
+            Highest sequence number received: 17980
+        Interarrival jitter: 0
+        Last SR timestamp: 1693369657 (0x64eec539)
+        Delay since last SR timestamp: 214419 (3271 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 15358: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:55.857414000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357235.857414000 seconds
+    [Time delta from previous captured frame: 0.000327000 seconds]
+    [Time delta from previous displayed frame: 1.735152000 seconds]
+    [Time since reference or first frame: 57.741857000 seconds]
+    Frame Number: 15358
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x7885 (30853)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x3ea8 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0x143c [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 55.407459000 seconds]
+        [Time since previous frame: 5.086862000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853346035 (0xe5ad64f3)
+    Timestamp, LSW: 3682053988 (0xdb77af64)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:53:55.857294999 UTC]
+    RTP timestamp: 674746904
+    Sender's packet count: 14896
+    Sender's octet count: 13903501
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 15652: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:53:56.965797000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357236.965797000 seconds
+    [Time delta from previous captured frame: 0.002052000 seconds]
+    [Time delta from previous displayed frame: 1.108383000 seconds]
+    [Time since reference or first frame: 58.850240000 seconds]
+    Frame Number: 15652
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0x8d72 (36210)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x2eb7 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0x926a [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 54.996104000 seconds]
+        [Time since previous frame: 2.843535000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 0 / 256
+            Cumulative number of packets lost: 57
+        Extended highest sequence number received: 18075
+            Sequence number cycles count: 0
+            Highest sequence number received: 18075
+        Interarrival jitter: 0
+        Last SR timestamp: 1693703031 (0x64f3db77)
+        Delay since last SR timestamp: 66777 (1018 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 16873: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:01.625008000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357241.625008000 seconds
+    [Time delta from previous captured frame: 0.008874000 seconds]
+    [Time delta from previous displayed frame: 4.659211000 seconds]
+    [Time since reference or first frame: 63.509451000 seconds]
+    Frame Number: 16873
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x7d58 (32088)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x39d5 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0x3365 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 61.175053000 seconds]
+        [Time since previous frame: 5.767594000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853346041 (0xe5ad64f9)
+    Timestamp, LSW: 2683706019 (0x9ff61aa3)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:54:01.624848999 UTC]
+    RTP timestamp: 675265978
+    Sender's packet count: 15091
+    Sender's octet count: 14084913
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 16944: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:01.845286000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357241.845286000 seconds
+    [Time delta from previous captured frame: 0.004131000 seconds]
+    [Time delta from previous displayed frame: 0.220278000 seconds]
+    [Time since reference or first frame: 63.729729000 seconds]
+    Frame Number: 16944
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0x9176 (37238)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x2ab3 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0xaa67 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 59.875593000 seconds]
+        [Time since previous frame: 4.879489000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 0 / 256
+            Cumulative number of packets lost: 57
+        Extended highest sequence number received: 18239
+            Sequence number cycles count: 0
+            Highest sequence number received: 18239
+        Interarrival jitter: 0
+        Last SR timestamp: 1694081014 (0x64f99ff6)
+        Delay since last SR timestamp: 10164 (155 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 18006: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:05.853424000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357245.853424000 seconds
+    [Time delta from previous captured frame: 0.001493000 seconds]
+    [Time delta from previous displayed frame: 4.008138000 seconds]
+    [Time since reference or first frame: 67.737867000 seconds]
+    Frame Number: 18006
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x80e7 (32999)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x3646 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0x5b4a [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 65.403469000 seconds]
+        [Time since previous frame: 4.228416000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853346045 (0xe5ad64fd)
+    Timestamp, LSW: 3664835464 (0xda70f388)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:54:05.853285999 UTC]
+    RTP timestamp: 675646557
+    Sender's packet count: 15229
+    Sender's octet count: 14213299
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 18152: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:06.389452000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357246.389452000 seconds
+    [Time delta from previous captured frame: 0.001476000 seconds]
+    [Time delta from previous displayed frame: 0.536028000 seconds]
+    [Time since reference or first frame: 68.273895000 seconds]
+    Frame Number: 18152
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0x9530 (38192)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x26f9 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0x22a0 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 64.419759000 seconds]
+        [Time since previous frame: 4.544166000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 0 / 256
+            Cumulative number of packets lost: 57
+        Extended highest sequence number received: 18387
+            Sequence number cycles count: 0
+            Highest sequence number received: 18387
+        Interarrival jitter: 0
+        Last SR timestamp: 1694358128 (0x64fdda70)
+        Delay since last SR timestamp: 29801 (454 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 19081: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:09.914056000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357249.914056000 seconds
+    [Time delta from previous captured frame: 0.002443000 seconds]
+    [Time delta from previous displayed frame: 3.524604000 seconds]
+    [Time since reference or first frame: 71.798499000 seconds]
+    Frame Number: 19081
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0x9807 (38919)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x2422 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0x9298 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 67.944363000 seconds]
+        [Time since previous frame: 3.524604000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 0 / 256
+            Cumulative number of packets lost: 57
+        Extended highest sequence number received: 18509
+            Sequence number cycles count: 0
+            Highest sequence number received: 18509
+        Interarrival jitter: 0
+        Last SR timestamp: 1694358128 (0x64fdda70)
+        Delay since last SR timestamp: 263155 (4015 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 19246: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:10.541340000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357250.541340000 seconds
+    [Time delta from previous captured frame: 0.004953000 seconds]
+    [Time delta from previous displayed frame: 0.627284000 seconds]
+    [Time since reference or first frame: 72.425783000 seconds]
+    Frame Number: 19246
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x84d5 (34005)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x3258 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0x221b [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 70.091385000 seconds]
+        [Time since previous frame: 4.687916000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853346050 (0xe5ad6502)
+    Timestamp, LSW: 2324612394 (0x8a8ec52a)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:54:10.541240999 UTC]
+    RTP timestamp: 676068426
+    Sender's packet count: 15390
+    Sender's octet count: 14362503
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 20450: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:15.081819000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357255.081819000 seconds
+    [Time delta from previous captured frame: 0.000500000 seconds]
+    [Time delta from previous displayed frame: 4.540479000 seconds]
+    [Time since reference or first frame: 76.966262000 seconds]
+    Frame Number: 20450
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0x9c26 (39974)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x2003 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0x80ba [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 73.112126000 seconds]
+        [Time since previous frame: 5.167763000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 0 / 256
+            Cumulative number of packets lost: 57
+        Extended highest sequence number received: 18687
+            Sequence number cycles count: 0
+            Highest sequence number received: 18687
+        Interarrival jitter: 0
+        Last SR timestamp: 1694665358 (0x65028a8e)
+        Delay since last SR timestamp: 287996 (4394 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 20723: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:16.051596000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357256.051596000 seconds
+    [Time delta from previous captured frame: 0.005564000 seconds]
+    [Time delta from previous displayed frame: 0.969777000 seconds]
+    [Time since reference or first frame: 77.936039000 seconds]
+    Frame Number: 20723
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x8953 (35155)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x2dda [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0x394f [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 75.601641000 seconds]
+        [Time since previous frame: 5.510256000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853346056 (0xe5ad6508)
+    Timestamp, LSW: 220984657 (0x0d2bf551)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:54:16.051451999 UTC]
+    RTP timestamp: 676564373
+    Sender's packet count: 15581
+    Sender's octet count: 14535541
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 21620: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:19.459109000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357259.459109000 seconds
+    [Time delta from previous captured frame: 0.002933000 seconds]
+    [Time delta from previous displayed frame: 3.407513000 seconds]
+    [Time since reference or first frame: 81.343552000 seconds]
+    Frame Number: 21620
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x8c2c (35884)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x2b01 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0x9748 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 79.009154000 seconds]
+        [Time since previous frame: 3.407513000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853346059 (0xe5ad650b)
+    Timestamp, LSW: 1971248254 (0x757edc7e)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:54:19.458966999 UTC]
+    RTP timestamp: 676871044
+    Sender's packet count: 15700
+    Sender's octet count: 14643084
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 21966: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:20.749412000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357260.749412000 seconds
+    [Time delta from previous captured frame: 0.002234000 seconds]
+    [Time delta from previous displayed frame: 1.290303000 seconds]
+    [Time since reference or first frame: 82.633855000 seconds]
+    Frame Number: 21966
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0xa0b7 (41143)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x1b72 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0xca41 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 78.779719000 seconds]
+        [Time since previous frame: 5.667593000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 0 / 256
+            Cumulative number of packets lost: 57
+        Extended highest sequence number received: 18883
+            Sequence number cycles count: 0
+            Highest sequence number received: 18883
+        Interarrival jitter: 0
+        Last SR timestamp: 1695249790 (0x650b757e)
+        Delay since last SR timestamp: 77755 (1186 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 23154: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:25.169053000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357265.169053000 seconds
+    [Time delta from previous captured frame: 0.000572000 seconds]
+    [Time delta from previous displayed frame: 4.419641000 seconds]
+    [Time since reference or first frame: 87.053496000 seconds]
+    Frame Number: 23154
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x90d8 (37080)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x2655 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0x3440 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 84.719098000 seconds]
+        [Time since previous frame: 5.709944000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853346065 (0xe5ad6511)
+    Timestamp, LSW: 725548825 (0x2b3eff19)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:54:25.168929999 UTC]
+    RTP timestamp: 677384937
+    Sender's packet count: 15890
+    Sender's octet count: 14819846
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 23237: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:25.460900000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357265.460900000 seconds
+    [Time delta from previous captured frame: 0.000168000 seconds]
+    [Time delta from previous displayed frame: 0.291847000 seconds]
+    [Time since reference or first frame: 87.345343000 seconds]
+    Frame Number: 23237
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0xa495 (42133)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x1794 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0xfec6 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 83.491207000 seconds]
+        [Time since previous frame: 4.711488000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 0 / 256
+            Cumulative number of packets lost: 57
+        Extended highest sequence number received: 19044
+            Sequence number cycles count: 0
+            Highest sequence number received: 19044
+        Interarrival jitter: 0
+        Last SR timestamp: 1695623998 (0x65112b3e)
+        Delay since last SR timestamp: 17616 (268 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 24291: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:29.404303000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357269.404303000 seconds
+    [Time delta from previous captured frame: 0.004805000 seconds]
+    [Time delta from previous displayed frame: 3.943403000 seconds]
+    [Time since reference or first frame: 91.288746000 seconds]
+    Frame Number: 24291
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0xa7ce (42958)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x145b [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0x0e07 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 87.434610000 seconds]
+        [Time since previous frame: 3.943403000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 0 / 256
+            Cumulative number of packets lost: 57
+        Extended highest sequence number received: 19172
+            Sequence number cycles count: 0
+            Highest sequence number received: 19172
+        Interarrival jitter: 0
+        Last SR timestamp: 1695623998 (0x65112b3e)
+        Delay since last SR timestamp: 275724 (4207 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 24370: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:29.703515000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357269.703515000 seconds
+    [Time delta from previous captured frame: 0.004365000 seconds]
+    [Time delta from previous displayed frame: 0.299212000 seconds]
+    [Time since reference or first frame: 91.587958000 seconds]
+    Frame Number: 24370
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x9491 (38033)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x229c [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0x718c [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 89.253560000 seconds]
+        [Time since previous frame: 4.534462000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853346069 (0xe5ad6515)
+    Timestamp, LSW: 3021067111 (0xb411d367)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:54:29.703396999 UTC]
+    RTP timestamp: 677793013
+    Sender's packet count: 16038
+    Sender's octet count: 14961900
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 24955: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:31.902550000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357271.902550000 seconds
+    [Time delta from previous captured frame: 0.006208000 seconds]
+    [Time delta from previous displayed frame: 2.199035000 seconds]
+    [Time since reference or first frame: 93.786993000 seconds]
+    Frame Number: 24955
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0xa9cb (43467)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x125e [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0x8baf [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 89.932857000 seconds]
+        [Time since previous frame: 2.498247000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 0 / 256
+            Cumulative number of packets lost: 57
+        Extended highest sequence number received: 19252
+            Sequence number cycles count: 0
+            Highest sequence number received: 19252
+        Interarrival jitter: 0
+        Last SR timestamp: 1695921169 (0x6515b411)
+        Delay since last SR timestamp: 142910 (2180 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 25344: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:33.409385000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357273.409385000 seconds
+    [Time delta from previous captured frame: 0.001952000 seconds]
+    [Time delta from previous displayed frame: 1.506835000 seconds]
+    [Time since reference or first frame: 95.293828000 seconds]
+    Frame Number: 25344
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x978f (38799)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x1f9e [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0x729c [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 92.959430000 seconds]
+        [Time since previous frame: 3.705870000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853346073 (0xe5ad6519)
+    Timestamp, LSW: 1757758315 (0x68c5436b)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:54:33.409259999 UTC]
+    RTP timestamp: 678126554
+    Sender's packet count: 16159
+    Sender's octet count: 15077308
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 26570: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:37.993032000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357277.993032000 seconds
+    [Time delta from previous captured frame: 0.000137000 seconds]
+    [Time delta from previous displayed frame: 4.583647000 seconds]
+    [Time since reference or first frame: 99.877475000 seconds]
+    Frame Number: 26570
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0xaed9 (44761)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x0d50 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0x7972 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 96.023339000 seconds]
+        [Time since previous frame: 6.090482000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 0 / 256
+            Cumulative number of packets lost: 57
+        Extended highest sequence number received: 19453
+            Sequence number cycles count: 0
+            Highest sequence number received: 19453
+        Interarrival jitter: 0
+        Last SR timestamp: 1696164037 (0x651968c5)
+        Delay since last SR timestamp: 297720 (4542 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 26603: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:38.110717000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357278.110717000 seconds
+    [Time delta from previous captured frame: 0.002920000 seconds]
+    [Time delta from previous displayed frame: 0.117685000 seconds]
+    [Time since reference or first frame: 99.995160000 seconds]
+    Frame Number: 26603
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x9b66 (39782)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x1bc7 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0xa295 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 97.660762000 seconds]
+        [Time since previous frame: 4.701332000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853346078 (0xe5ad651e)
+    Timestamp, LSW: 474851584 (0x1c4da900)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:54:38.110559999 UTC]
+    RTP timestamp: 678549685
+    Sender's packet count: 16314
+    Sender's octet count: 15225122
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 28037: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:43.550611000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357283.550611000 seconds
+    [Time delta from previous captured frame: 0.004071000 seconds]
+    [Time delta from previous displayed frame: 5.439894000 seconds]
+    [Time since reference or first frame: 105.435054000 seconds]
+    Frame Number: 28037
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0x9fca (40906)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x1763 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0x21d6 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 103.100656000 seconds]
+        [Time since previous frame: 5.439894000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853346083 (0xe5ad6523)
+    Timestamp, LSW: 2364448215 (0x8cee9dd7)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:54:43.550515999 UTC]
+    RTP timestamp: 679039244
+    Sender's packet count: 16497
+    Sender's octet count: 15397708
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 28129: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:43.864533000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357283.864533000 seconds
+    [Time delta from previous captured frame: 0.005024000 seconds]
+    [Time delta from previous displayed frame: 0.313922000 seconds]
+    [Time since reference or first frame: 105.748976000 seconds]
+    Frame Number: 28129
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0xb387 (45959)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x08a2 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0xa075 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 101.894840000 seconds]
+        [Time since previous frame: 5.871501000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 1 / 256
+            Cumulative number of packets lost: 58
+        Extended highest sequence number received: 19647
+            Sequence number cycles count: 0
+            Highest sequence number received: 19647
+        Interarrival jitter: 0
+        Last SR timestamp: 1696828654 (0x65238cee)
+        Delay since last SR timestamp: 15875 (242 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 29013: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:47.213420000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357287.213420000 seconds
+    [Time delta from previous captured frame: 0.001784000 seconds]
+    [Time delta from previous displayed frame: 3.348887000 seconds]
+    [Time since reference or first frame: 109.097863000 seconds]
+    Frame Number: 29013
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0xa2bc (41660)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x1471 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0x5d10 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 106.763465000 seconds]
+        [Time since previous frame: 3.662809000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853346087 (0xe5ad6527)
+    Timestamp, LSW: 916125114 (0x369af5ba)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:54:47.213301999 UTC]
+    RTP timestamp: 679368889
+    Sender's packet count: 16617
+    Sender's octet count: 15511123
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 29574: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:49.350355000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357289.350355000 seconds
+    [Time delta from previous captured frame: 0.003994000 seconds]
+    [Time delta from previous displayed frame: 2.136935000 seconds]
+    [Time since reference or first frame: 111.234798000 seconds]
+    Frame Number: 29574
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0xb802 (47106)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0x0427 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0x26bb [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 107.380662000 seconds]
+        [Time since previous frame: 5.485822000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 2 / 256
+            Cumulative number of packets lost: 60
+        Extended highest sequence number received: 19824
+            Sequence number cycles count: 0
+            Highest sequence number received: 19824
+        Interarrival jitter: 0
+        Last SR timestamp: 1697068698 (0x6527369a)
+        Delay since last SR timestamp: 134233 (2048 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 30640: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:53.355068000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357293.355068000 seconds
+    [Time delta from previous captured frame: 0.001532000 seconds]
+    [Time delta from previous displayed frame: 4.004713000 seconds]
+    [Time since reference or first frame: 115.239511000 seconds]
+    Frame Number: 30640
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0xa7b5 (42933)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x0f78 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0x6ea5 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 112.905113000 seconds]
+        [Time since previous frame: 6.141648000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853346093 (0xe5ad652d)
+    Timestamp, LSW: 1524326843 (0x5adb61bb)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:54:53.354909999 UTC]
+    RTP timestamp: 679921652
+    Sender's packet count: 16820
+    Sender's octet count: 15703141
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
+Frame 31146: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:55.263235000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357295.263235000 seconds
+    [Time delta from previous captured frame: 0.004877000 seconds]
+    [Time delta from previous displayed frame: 1.908167000 seconds]
+    [Time since reference or first frame: 117.147678000 seconds]
+    Frame Number: 31146
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_98:63:40 (00:c0:ca:98:63:40), Dst: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+    Destination: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.2, Dst: 192.168.1.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 112
+    Identification: 0xbcd4 (48340)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 59
+    Protocol: UDP (17)
+    Header checksum: 0xff54 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.2
+    Destination: 192.168.1.1
+User Datagram Protocol, Src Port: 52847, Dst Port: 6005
+    Source Port: 52847
+    Destination Port: 6005
+    Length: 92
+    Checksum: 0x2743 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 10]
+    [Timestamps]
+        [Time since first frame: 113.293542000 seconds]
+        [Time since previous frame: 5.912880000 seconds]
+Real-time Transport Control Protocol (Receiver Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Reception report count: 1
+    Packet type: Receiver Report (201)
+    Length: 7 (32 bytes)
+    Sender SSRC: 0x4f8305f8 (1333986808)
+    Source 1
+        Identifier: 0x9015b5fc (2417341948)
+        SSRC contents
+            Fraction lost: 3 / 256
+            Cumulative number of packets lost: 63
+        Extended highest sequence number received: 20023
+            Sequence number cycles count: 0
+            Highest sequence number received: 20023
+        Interarrival jitter: 0
+        Last SR timestamp: 1697471195 (0x652d5adb)
+        Delay since last SR timestamp: 124352 (1897 milliseconds)
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x4F8305F8
+        Identifier: 0x4f8305f8 (1333986808)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user534165224@host-57515a28
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 84 bytes]
+
+Frame 31747: 122 bytes on wire (976 bits), 122 bytes captured (976 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb  8, 2022 16:54:57.549416000 -05
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644357297.549416000 seconds
+    [Time delta from previous captured frame: 0.003034000 seconds]
+    [Time delta from previous displayed frame: 2.286181000 seconds]
+    [Time since reference or first frame: 119.433859000 seconds]
+    Frame Number: 31747
+    Frame Length: 122 bytes (976 bits)
+    Capture Length: 122 bytes (976 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rtcp]
+Ethernet II, Src: Alfa_5a:27:8a (00:c0:ca:5a:27:8a), Dst: Alfa_98:63:40 (00:c0:ca:98:63:40)
+    Destination: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        Address: Alfa_98:63:40 (00:c0:ca:98:63:40)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        Address: Alfa_5a:27:8a (00:c0:ca:5a:27:8a)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 192.168.1.1, Dst: 192.168.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 108
+    Identification: 0xab10 (43792)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x0c1d [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.1.1
+    Destination: 192.168.1.2
+User Datagram Protocol, Src Port: 60169, Dst Port: 6001
+    Source Port: 60169
+    Destination Port: 6001
+    Length: 88
+    Checksum: 0x0854 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 117.099461000 seconds]
+        [Time since previous frame: 4.194348000 seconds]
+Real-time Transport Control Protocol (Sender Report)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0000 = Reception report count: 0
+    Packet type: Sender Report (200)
+    Length: 6 (28 bytes)
+    Sender SSRC: 0x9015b5fc (2417341948)
+    Timestamp, MSW: 3853346097 (0xe5ad6531)
+    Timestamp, LSW: 2359221240 (0x8c9edbf8)
+    [MSW and LSW as NTP timestamp: Feb  8, 2022 21:54:57.549298999 UTC]
+    RTP timestamp: 680299147
+    Sender's packet count: 16957
+    Sender's octet count: 15831946
+Real-time Transport Control Protocol (Source description)
+    10.. .... = Version: RFC 1889 Version (2)
+    ..0. .... = Padding: False
+    ...0 0001 = Source count: 1
+    Packet type: Source description (202)
+    Length: 12 (52 bytes)
+    Chunk 1, SSRC/CSRC 0x9015B5FC
+        Identifier: 0x9015b5fc (2417341948)
+        SDES items
+            Type: CNAME (user and domain) (1)
+            Length: 27
+            Text: user244947324@host-3bf1707d
+            Type: TOOL (name/version of source app) (6)
+            Length: 9
+            Text: GStreamer
+            Type: END (0)
+    [RTCP frame length check: OK - 80 bytes]
+
